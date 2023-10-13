@@ -4,6 +4,6 @@
 
 ### C001
 
-Photo comes here.
+![](images/C001.jpg)
 
 ### C002
