@@ -14,7 +14,7 @@ def main():
     for file in files:
         filepath = os.path.dirname(file)
         name, ext = os.path.splitext(os.path.basename(file))
-        toc_str += f"- [{name}](#{name})\n"
+        toc_str += f"- [{name}](#{name.lower()})\n"
         image_str += f"""## {name}
 
 ![]({file})
